@@ -13,6 +13,7 @@ body{
     border-radius: 15px;
     max-width: 400px;
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -67,3 +68,10 @@ button:active{
     background-color: rgba(0, 255, 200, 0.858);
 }
 
+p {
+  position: absolute;
+  left: 4.5cm;
+  bottom: 0.9cm;
+  color: white;
+  font-size: 1rem;
+}
